@@ -11,7 +11,7 @@ public class main
         int numero = Reader.readInt();
 
         for(int x = 0; x<= numero; x++) {
-            if( (x % 3 == 0) && (x % 7 == 0) ) {
+            if( (x % 3 == 0) && (x % 7 == 0) && (x != 0)) {
                 System.out.println("Número "+x+" é múltiplo de 3 e 7");
             }
         }
